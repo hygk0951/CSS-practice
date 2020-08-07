@@ -1,0 +1,24 @@
+@import "reset.css";
+
+.contents {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.contents .contents__content {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  color: white;
+  background-color: cadetblue;
+  font-size: 50px;
+  margin: 0 50px;
+  border-radius: 50%;
+}
+
+.contents .contents__content img {
+  width: inherit;
+  border-radius: 50%;
+}
