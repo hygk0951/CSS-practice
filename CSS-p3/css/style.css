@@ -1,2 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 @import "reset.css";
+
+body {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top, #4b79a1, #283e51);
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.main .box {
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+  background-color: gray;
+  margin-right: 20px;
+}
+
+.main .box:last-child {
+  margin: 0;
+}
+
+.box .box__text {
+  margin: 40px 40px 0;
+  text-align-last: justify;
+  font-family: "open sans";
+}
+
+.box .box__text h1 {
+  display: block;
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.box .box__text span {
+  font-size: 14px;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+.main #box-1 {
+  background-image: url("../images/img1.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.main #box-2 {
+  background-image: url("../images/img2.jpg");
+  background-size: cover;
+  color: rgb(253, 255, 123);
+}
+
+.main #box-3 {
+  background-image: url("../images/img3.jpg");
+  background-size: cover;
+  color: rgb(202, 38, 175);
+}
+
+.main #box-4 {
+  background-image: url("../images/img4.jpg");
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
